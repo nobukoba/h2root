@@ -25,4 +25,15 @@ $ cp root-6.18.04/misc/minicern/src/zebra.f   ./
 $ cp root-6.18.04/misc/minicern/src/kernlib.f ./
 $ cp root-6.18.04/main/src/h2root.cxx         ./
 $ sed -i -e 's/4000000/32000000/g' *.f *.c *.cxx
+Then in h2roo.cxx,
+
+h1->Fill(x,yx);
+h2->Fill(x+offsetx,y+offsety,hij(id,i,j));
+
+were replaced with
+
+h1->SetBinContent(i,hi(id,i));
+h2->SetBinContent(i,j,hij(id,i,j));
+
+because the method of the error calculation changed from ROOT v6
 ```
