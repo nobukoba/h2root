@@ -1,5 +1,5 @@
 # h2root
-h2root command with 128 MB memory
+h2root (HBOOK to ROOT) command with 128 MB memory
 
 ## How to compile and use
 On the terminal, clone the macros by the following command.
