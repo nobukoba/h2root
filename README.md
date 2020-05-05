@@ -26,7 +26,7 @@ $ cp root-6.18.04/misc/minicern/src/zebra.f   ./
 $ cp root-6.18.04/misc/minicern/src/kernlib.f ./
 $ cp root-6.18.04/main/src/h2root.cxx         ./
 $ sed -i -e 's/4000000/32000000/g' *.f *.c *.cxx
-N.B. 32000000 words = 120 MB
+N.B. 32000000 words = 128 MB
 Then in h2roo.cxx,
 
 h1->Fill(x,yx);
