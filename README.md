@@ -10,7 +10,7 @@ $ ... h2root ...
 $ cd h2root
 $ make
 ```
-In compiling the code, you need ROOT libralies, and root-config command should be available. You do not need external CERN Program Library, because minimal subroutines of cernlib are written in hbook.f, zebra.f, kernlib.f, and cernlib.c.
+In compiling the code, you need ROOT libraries, and root-config command should be available. You do not need external CERN Program Library, because minimal subroutines of cernlib are written in hbook.f, zebra.f, kernlib.f, and cernlib.c.
 Then you can use h2root command
 ```
 $ ./h2root test.hbook
