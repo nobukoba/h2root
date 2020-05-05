@@ -20,4 +20,4 @@ h2root: h2root.o zebra.o hbook.o cernlib.o kernlib.o
 	$(FC)      $(FFLAGS)   -c $<
 .PHONY : clean
 clean:
-	rm -rf *.o
+	rm -rf *.o $(TARGETS)
